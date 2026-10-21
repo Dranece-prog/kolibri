@@ -20,7 +20,7 @@
       </header>
 
       <h1>Règle de confidentialité</h1>
-      <p class="muted">Dernière mise à jour : 21 octobre 2026</p>
+      <p class="muted">Dernière mise à jour : 22 octobre 2026</p>
 
       <p>
         Kolibri est une application Android éditée par Dranece (« nous »). Cette page explique quelles données
@@ -57,6 +57,16 @@
         <li>
           <strong>Appareil photo</strong> : seulement quand vous choisissez de photographier un document. Les photos
           restent dans Kolibri.
+        </li>
+        <li>
+          <strong>Agenda</strong> : seulement si vous l’autorisez. Kolibri utilise l’agenda du téléphone, qui regroupe
+          Google Agenda et les autres comptes que vous y avez ajoutés : il affiche la liste de vos agendas pour que vous
+          choisissiez celui de vos missions ; quand vous ouvrez « Importer depuis l’agenda », il affiche les événements
+          des 30 prochains jours pour que vous choisissiez lesquels deviennent des missions ; et, seulement si vous
+          activez « Ajouter mes missions à l’agenda », il crée un événement pour chaque mission saisie dans Kolibri, le
+          met à jour si vous modifiez la mission et le supprime si vous la supprimez. Kolibri ne modifie jamais un
+          événement qu’il n’a pas créé. Ces événements sont ensuite synchronisés par le téléphone avec votre compte
+          d’agenda, comme tout événement saisi sur le téléphone.
         </li>
         <li>
           <strong>Notifications</strong> : seulement si vous activez les rappels. Ils sont programmés sur le téléphone,
@@ -96,26 +106,6 @@
               pour les retrouver si vous changez de téléphone. Ce dossier n’est lisible que par Kolibri.
             </td>
           </tr>
-          <tr>
-            <td>Google Agenda, liste des agendas<br /><code>calendar.calendarlist.readonly</code></td>
-            <td>Afficher la liste de vos agendas, pour que vous choisissiez celui de vos missions.</td>
-          </tr>
-          <tr>
-            <td>Google Agenda, lecture des événements<br /><code>calendar.events.readonly</code></td>
-            <td>
-              Quand vous ouvrez « Importer depuis Google Agenda » : afficher les événements des 30 prochains jours, pour
-              que vous choisissiez lesquels deviennent des missions. Rien n’est importé sans votre choix.
-            </td>
-          </tr>
-          <tr>
-            <td>Google Agenda, événements<br /><code>calendar.events</code></td>
-            <td>
-              Demandé seulement si vous activez « Ajouter mes missions à Google Agenda » : créer un événement pour
-              chaque mission saisie dans Kolibri, dans l’agenda que vous choisissez, le mettre à jour si vous modifiez
-              la mission, le déplacer si vous choisissez un autre agenda et le supprimer si vous supprimez la mission.
-              Kolibri ne modifie jamais un événement qu’il n’a pas créé.
-            </td>
-          </tr>
         </tbody>
       </table>
       <p>
@@ -147,8 +137,8 @@
           Kolibri → Supprimer les données d’application cachées.
         </li>
         <li>
-          <strong>Dans Google Agenda</strong> : les événements créés par Kolibri sont des événements ordinaires que vous
-          pouvez supprimer.
+          <strong>Dans votre agenda</strong> : les événements créés par Kolibri sont des événements ordinaires que vous
+          pouvez supprimer. Vous pouvez aussi retirer à Kolibri l’accès à l’agenda dans les réglages du téléphone.
         </li>
         <li>
           <strong>Retirer l’accès</strong> : « Se déconnecter » dans les réglages de Kolibri, puis, pour révoquer
@@ -161,7 +151,7 @@
       <p>
         Comme nous ne détenons aucune de vos données, vous gardez la maîtrise complète de ce qui est enregistré :
         consulter, corriger et supprimer se font directement dans l’application, dans votre Google Drive et dans votre
-        Google Agenda. Pour toute question sur cette règle ou sur vos droits au titre du RGPD, écrivez-nous à
+        agenda. Pour toute question sur cette règle ou sur vos droits au titre du RGPD, écrivez-nous à
         <a href="mailto:dranece2+contact@gmail.com">dranece2+contact@gmail.com</a>. Vous pouvez aussi adresser une
         réclamation à la CNIL (<a href="https://www.cnil.fr">cnil.fr</a>).
       </p>
